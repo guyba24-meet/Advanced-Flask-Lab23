@@ -54,6 +54,14 @@
                       </a>
                 </div>  
 
+								{% for key in posts %}
+								<div>
+									<a href="">
+										<img src={{key}} width="300" hight= "500">
+										<h3> {{ posts[key] }} </h3>
+									</a>
+								</div>
+								{% endfor %}
 							</section>
 
 					</section>
